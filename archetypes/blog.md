@@ -1,9 +1,9 @@
 ---
 date: {{ .Date }}
-author: ([Ben Vilnis](https://linkedin.com/in/benvilnis))
+author: ([Ben Vilnis](/about/))
 title: "{{ replace .Name "-" " " | title }}"
 linkTitle: ""
 description: ""
-tags: [""]
+tags: ["blog"]
 draft: true
 ---
