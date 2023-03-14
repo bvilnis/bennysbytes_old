@@ -10,7 +10,7 @@ draft: true
 
 <div class="center-text">
 
-  {{< imgproc featured-image-get.jpg Fill "1200x627" />}}
+  {{< imgproc featured-image-get Fill "1200x627" />}}
 
   Enter text here
 
