@@ -9,7 +9,7 @@ draft: false
 ---
 
 <div class="center-image">
-  {{< imgproc image Fill "1200x627" />}}
+  {{< imgproc featured-image-get.jpg Fill "1200x627" />}}
 </div>
 
 <div class="center-text">
@@ -25,6 +25,10 @@ My priority to ascend the engineering hierarchy is not only reflected in my prac
 Unsurprisingly, the jump from junior to mid-level was far more than just a title bump. It came with a substantial increase in pay, flexibility, autonomy, but also responsibility and expectations. In my mind, this was merely another "fake it until you make it" situation — a game plan I thought had always served me sufficiently.
 
 The "fake it until you make it" mentality is in many ways synonymous with that of a stretch goal, which is a goal that requires one to stretch past current limitations in order to deliver. A stretch goal can be extremely valuable and effective for achieving growth when deployed correctly. However, when deployed incorrectly and unrealistically, stretch goals can lead to ongoing burnout, demotivation, and a general feeling that each struggling step forward is somehow also a step in the wrong direction.
+
+<div class="center-image">
+  {{< imgproc secondary-image.jpg Fill "1200x627" />}}
+</div>
 
 This has been my experience over the past two years. In other words, I bit off more than I could chew and, consequently, could never catch up and get ahead. Hindsight is 20/20, and looking back, it is clear that skill gaps from my self-taught education, mixed with a stretch goal far larger than was ever obtainable, resulted in this ongoing predicament I increasingly found myself in.
 
