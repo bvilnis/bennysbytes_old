@@ -233,3 +233,8 @@ enable = false
     singular = "post"
     plural = "posts"
     archetype = "blog"
+  [contentTypes.doc]
+    name = "Documentation"
+    singular = "doc"
+    plural = "docs"
+    archetype = "doc"
