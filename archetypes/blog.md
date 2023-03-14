@@ -1,9 +1,17 @@
 ---
 date: {{ .Date }}
-author: ([Ben Vilnis](/about/))
-title: "{{ replace .Name "-" " " | title }}"
+author: "[Ben Vilnis](/about/)"
+title: ""
 linkTitle: ""
 description: ""
-tags: ["blog"]
+tags: ["blog", ""]
 draft: true
 ---
+
+<div class="center-text">
+
+  {{< imgproc featured-image-get.jpg Fill "1200x627" />}}
+
+  Enter text here
+
+</div>
