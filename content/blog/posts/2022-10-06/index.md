@@ -3,14 +3,14 @@ date: 2022-10-06T13:51:44+11:00
 author: "[Ben Vilnis](/about/)"
 title: "Sometimes Bigger Isn't Better"
 linkTitle: "Sometimes Bigger Isn't Better"
-description: "Lessons learnt from burnout and demotivation"
+description: "Lessons I have learnt from burnout and demotivation."
 tags: ["blog","self-care"]
 draft: false
 ---
 
 <div class="center-text">
 
-  {{< imgproc featured-image-get.jpg Fill "1200x627" />}}
+  {{< imgproc featured-image-get Fill "1200x627" />}}
 
   Sometimes bigger isn't better. This is a lesson I have recently learned as I step away from two years at a unicorn scale-up company. So let me first give some background context to this situation, and for the sake of brevity, I will attempt to be succinct.
 
