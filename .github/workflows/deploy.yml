@@ -42,4 +42,4 @@ jobs:
     - name: Deploy to DigitalOcean Spaces
       if: github.event_name == 'push'
       run: |
-        s3cmd --access_key="${{ secrets.DO_SPACES_ACCESS_KEY }}" --secret_key="${{ secrets.DO_SPACES_SECRET_KEY }}" --host="https://${{ secrets.DO_SPACES_REGION }}.digitaloceanspaces.com" --host-bucket="%(bucket)s.https://${{ secrets.DO_SPACES_REGION }}.digitaloceanspaces.com" --recursive --acl-public --no-preserve --add-header="Cache-Control: public, max-age=86400" sync public/ s3://${{ secrets.DO_SPACES_BUCKET }}/
+        s3cmd --access_key="${{ secrets.DO_SPACES_ACCESS_KEY }}" --secret_key="${{ secrets.DO_SPACES_SECRET_KEY }}" --host="https://${{ secrets.DO_SPACES_REGION }}.digitaloceanspaces.com" --host-bucket="%(bucket)s.${{ secrets.DO_SPACES_REGION }}.digitaloceanspaces.com" --recursive --acl-public --no-preserve --add-header="Cache-Control: public, max-age=86400" sync public/ s3://${{ secrets.DO_SPACES_BUCKET }}/
