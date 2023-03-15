@@ -23,7 +23,7 @@ jobs:
 
     - name: Install PostCSS CLI and dependencies
       run: |
-        npm ci
+        npm install
 
     - name: Install Hugo
       run: |
