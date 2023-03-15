@@ -16,6 +16,15 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - name: Install PostCSS CLI and dependencies
+      run: |
+        npm ci
+
     - name: Install Hugo
       run: |
         HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep 'tag_name' | cut -d\" -f4)
