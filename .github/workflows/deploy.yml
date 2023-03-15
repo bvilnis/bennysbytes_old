@@ -1,0 +1,36 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Install Hugo
+      run: |
+        HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep 'tag_name' | cut -d\" -f4)
+        wget https://github.com/gohugoio/hugo/releases/download/${HUGO_VERSION}/hugo_extended_${HUGO_VERSION:1}_Linux-64bit.deb
+        sudo dpkg -i hugo_extended_${HUGO_VERSION:1}_Linux-64bit.deb
+
+    - name: Build Hugo site
+      run: hugo --minify
+
+    - name: Install s3cmd
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y s3cmd
+
+    - name: Deploy to DigitalOcean Spaces
+      if: github.event_name == 'push'
+      run: |
+        s3cmd --access_key="${{ secrets.DO_SPACES_ACCESS_KEY }}" --secret_key="${{ secrets.DO_SPACES_SECRET_KEY }}" --host="https://${{ secrets.DO_SPACES_REGION }}.digitaloceanspaces.com" --host-bucket="%(bucket)s.https://${{ secrets.DO_SPACES_REGION }}.digitaloceanspaces.com" --recursive --acl-public --no-preserve --add-header="Cache-Control: public, max-age=86400" sync public/ s3://${{ secrets.DO_SPACES_BUCKET }}/
