@@ -1,8 +1,8 @@
 ---
 date: 2023-03-16T13:06:38+11:00
 author: "[Ben Vilnis](/about/)"
-title: "Observability Unraveled: Cutting Through the Hype and Misconceptions"
-linkTitle: "Observability Unraveled"
+title: "Understanding Observability: Cutting Through the Hype and Misconceptions"
+linkTitle: "Understanding Observability"
 description: "A Dive into Observability, Monitoring, SRE, and What They Really Mean for Your Systems."
 tags: ["blog", "techincal", "principles", "observability"]
 draft: false
