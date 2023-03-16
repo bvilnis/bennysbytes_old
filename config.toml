@@ -2,7 +2,7 @@ baseURL = "/"
 title = "Benny's Bytes"
 
 # Language settings
-contentDir = "content/"
+contentDir = "content/en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
