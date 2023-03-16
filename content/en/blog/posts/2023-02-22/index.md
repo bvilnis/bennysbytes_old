@@ -22,7 +22,7 @@ draft: false
 
   **Be opinionated:** Take a stand and have a clear point of view on what you do and why you do it. This will help you attract like-minded people who share your vision and values.
 
-  **Avoid distractions:** Multitasking, meetings, and interruptions can be significant distractions and destroy your flow state. Instead, schedule focus time to work on your most important tasks and minimize interruptions.
+  **Avoid distractions:** Multitasking, meetings, and interruptions can be significant distractions and destroy your flow state. Instead, schedule focus time to work on your most important tasks and minimise interruptions.
 
   **Start small:** Don't wait for everything to be perfect before you launch. Instead, start small, iterate, and adjust along the way. This will help you learn and improve quickly and avoid wasting time and resources.
 

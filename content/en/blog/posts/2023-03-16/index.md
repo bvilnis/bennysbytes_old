@@ -15,7 +15,7 @@ draft: false
   ## The Deceptive Simplicity of Observability
   You might've heard people throw around the term "Observability" in tech circles, often accompanied by knowing nods and self-assured smirks. But what exactly does it mean? At its core, Observability is the ability to infer the internal state of a system just by observing its outputs. Sounds simple, right? Well, not so fast. There's more to it than meets the eye.
 
-  Observability has its roots in control theory, but in the context of modern software systems, it refers to the practice of making systems more understandable and diagnosable by collecting, analyzing, and visualizing data from various sources. It’s the cool new kid on the block, moving beyond traditional monitoring, which mainly focuses on predefined metrics and known failure modes.
+  Observability has its roots in control theory, but in the context of modern software systems, it refers to the practice of making systems more understandable and diagnosable by collecting, analysing, and visualising data from various sources. It’s the cool new kid on the block, moving beyond traditional monitoring, which mainly focuses on predefined metrics and known failure modes.
 
   ## Monitoring v Observability: The Dynamic Duo
   To truly appreciate the subtle nuances between monitoring and observability, let's dig a little deeper. Monitoring is the good ol' practice of keeping tabs on your systems, using predefined metrics and alerts to detect when things go haywire. It's like having a security camera watching your front door - you know what's happening right there, but you can't see what's going on inside the house.
@@ -29,7 +29,7 @@ draft: false
   ## SRE: The Backbone of Modern System Management
   Now that we've got the monitoring and observability dynamic duo covered, let's talk about Site Reliability Engineering (SRE). SRE is a discipline that combines software engineering and systems engineering to create large-scale, reliable systems. It's the secret sauce that makes companies like Google and Netflix run smoothly, even when they're juggling millions of users and petabytes of data.
 
-  SREs, a role conceived by Google in response to the DevOps movement, are versatile engineers in the tech world who bridge the gap between software development and operations. They are proficient in a multitude of tasks, such as capacity planning, performance analysis, incident response, and postmortem reviews. So, where does observability fit into the SRE equation? Essentially, observability acts as one of the fundamental tools that an SRE utilizes in their daily operations, empowering them to maintain and optimize modern software systems.
+  SREs, a role conceived by Google in response to the DevOps movement, are versatile engineers in the tech world who bridge the gap between software development and operations. They are proficient in a multitude of tasks, such as capacity planning, performance analysis, incident response, and postmortem reviews. So, where does observability fit into the SRE equation? Essentially, observability acts as one of the fundamental tools that an SRE utilises in their daily operations, empowering them to maintain and optimise modern software systems.
 
   To be an effective SRE, you need to have a deep understanding of your system's inner workings and be able to diagnose and resolve issues quickly. That's where observability comes in. By providing granular insights into your system, observability enables SREs to identify potential problems, pinpoint their root causes, and implement appropriate solutions. Observability and SRE go hand in hand, like Batman and Robin, working together to keep systems running smoothly and reliably.
 
@@ -45,7 +45,7 @@ draft: false
   **Observability is too expensive and resource-intensive:** While observability does require an investment in tooling and infrastructure, the benefits far outweigh the costs. By proactively identifying and addressing issues, observability can save you time, money, and headaches down the line. Plus, there are plenty of open-source and cost-effective observability tools available to suit a range of budgets and needs.
 
   ## Wrapping Up
-  Observability is a powerful concept that has the potential to revolutionize how we manage and maintain software systems. By providing a more comprehensive understanding of system behavior, observability enables engineers to diagnose and resolve issues quickly and effectively, making it an invaluable asset in the SRE toolkit.
+  Observability is a powerful concept that has the potential to revolutionise how we manage and maintain software systems. By providing a more comprehensive understanding of system behavior, observability enables engineers to diagnose and resolve issues quickly and effectively, making it an invaluable asset in the SRE toolkit.
 
   However, it's essential to remember that observability is not a silver bullet or a replacement for traditional monitoring practices. Instead, it works best when combined with monitoring to provide a robust, multi-faceted approach to system management.
 
