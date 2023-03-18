@@ -1,9 +1,9 @@
 ---
-date: 2023-03-16T18:57:11+11:00
+date: 2023-03-20T09:00:11+11:00
 author: "[Ben Vilnis](/about/)"
-title: "The Phoenix Project Revisited: Timeless Lessons for the Modern Software Landscape"
-linkTitle: "The Phoenix Project Revisited"
-description: "Reflecting on The Phoenix Project after ten years and its enduring insights for the ever-evolving world of IT and DevOps"
+title: "The Phoenix Project 10 Years Later: Timeless Lessons for the Modern Software Landscape"
+linkTitle: "The Phoenix Project 10 Years Later"
+description: "Reflecting on The Phoenix Project after a decade and its enduring insights for the ever-evolving world of IT and Software Delivery"
 tags: ["blog", "principles"]
 draft: true
 ---
@@ -12,11 +12,9 @@ draft: true
 
   {{< imgproc featured-image-get Fill "1200x627" />}}
 
-  In today's fast-paced and ever-evolving software landscape, it's easy to get caught up in the latest trends and buzzwords. Amidst this constant change, it's important to take a step back and revisit the timeless lessons that have shaped the industry. One such source of invaluable insights is the seminal work "_*The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win*_" by Gene Kim, Kevin Behr, and George Spafford.
+  In today's fast-paced and ever-evolving software landscape, it's easy to get caught up in the latest trends and buzzwords. Amidst this constant change, it's important to take a step back and revisit the timeless lessons that have shaped the industry. One such source of invaluable insights is the seminal work "[_*The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win*_](https://www.goodreads.com/book/show/17255186-the-phoenix-project)" by Gene Kim, Kevin Behr, and George Spafford.
 
   Published in 2013, The Phoenix Project has become a must-read for IT professionals and has played a significant role in the widespread adoption of modern development and operations practices. As we look back on the key lessons from this influential work, we find that they remain just as relevant today as they were then.
-
-  In this article, we'll revisit the core principles and lessons of The Phoenix Project, examining their continued applicability and importance in the modern software landscape.
 
   ## **The Four Types of Work**
   The Phoenix Project introduces us to the four types of work that IT organisations must manage: Business Projects, Internal IT Projects, Changes, and Unplanned Work. Understanding and categorising work in this manner is crucial for effective prioritisation and resource allocation.
