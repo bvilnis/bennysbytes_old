@@ -1,11 +1,11 @@
 ---
-date: 2023-03-20T09:00:11+11:00
+date: 2023-03-20T07:00:11+11:00
 author: "[Ben Vilnis](/about/)"
 title: "The Phoenix Project 10 Years Later: Timeless Lessons for the Modern Software Landscape"
 linkTitle: "The Phoenix Project 10 Years Later"
 description: "Reflecting on The Phoenix Project after a decade and its enduring insights for the ever-evolving world of IT and Software Delivery"
 tags: ["blog", "principles"]
-draft: true
+draft: false
 ---
 
 <div class="center-text">
