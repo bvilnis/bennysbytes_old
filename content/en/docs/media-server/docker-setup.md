@@ -1,7 +1,7 @@
 ---
 title: "Setting Up Docker & Docker Compose"
 description: "Enabling SSH, installing Docker and Docker Compose, and creating necessary directories."
-tags: ["docs"]
+tags: ["docs", "media-server"]
 weight: 3
 draft: false
 ---
