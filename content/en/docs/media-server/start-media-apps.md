@@ -1,5 +1,5 @@
 ---
-title: "Starting the Media Server Apps"
+title: "Starting the Media Apps"
 description: "Using Docker Compose to start the containers and verify their operation."
 tags: ["docs", "media-server"]
 weight: 6
