@@ -1,10 +1,12 @@
 ---
-title: "Setting Up Media Apps"
+title: "Setting Up Media Apps With Docker Compose"
 description: "Setting up the docker-compose.yml file with the configuration for all media server containers."
 tags: ["docs", "media-server"]
 weight: 4
-draft: true
+draft: false
 ---
+
+## Setting Up Media App Containers
 
 In this section, we will create the `docker-compose.yml` file on your local machine and upload it to the Synology NAS.
 
@@ -23,7 +25,7 @@ The `docker-compose.yml` file sets up a media server environment on a Synology N
 
 The `docker-compose.yml` file also incorporates custom commands to ensure the `sonarr` and `radarr` containers start only after the VPN container is ready. This setup ensures a secure and efficient environment for managing and accessing media content.
 
-## Steps
+### Steps
 
 1. Open a text editor on your local machine (e.g., Notepad on Windows, TextEdit on macOS, or `vim` on Linux).
 
@@ -181,10 +183,12 @@ services:
     command: --schedule "0 2 * * MON"  # This is set to check for updates every Monday at 2 AM
     restart: unless-stopped
 ```
+{{% pageinfo %}}
 Be sure to replace the following placeholders with your actual credentials and values:
    - `<your_email>`: Replace with your NordVPN account email.
    - `<your_password>`: Replace with your NordVPN account password.
    - `<your_plex_claim>`: Replace with your [Plex Claim token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/).
+{{% /pageinfo %}}
 
 3. Save the file as `docker-compose.yml` on your local machine.
 
