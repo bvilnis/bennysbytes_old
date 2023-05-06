@@ -1,6 +1,6 @@
 ---
 title: "Prerequisites"
-description: "A list of prerequisites and system requirements for setting up a local Kubernetes cluster on a Mac Mini and deploying the Grafana Stack using Helm charts."
+description: "A list of prerequisites and system requirements for setting up a local Kubernetes cluster and deploying the Grafana Stack using Helm charts."
 tags: ["docs", "o11y-cluster"]
 weight: 2
 draft: false
