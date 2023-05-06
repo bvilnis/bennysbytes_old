@@ -31,12 +31,13 @@ helm version
 ```
 
 ## Setting Up The Helm Repositories
-Helm repositories are collections of Helm charts that can be easily accessed and installed on your Kubernetes cluster. To deploy the Grafana Stack and access it via an NGINX ingress controller, you will need to add the official Grafana and NGINX Helm repositories to your Helm configuration.
+Helm repositories are collections of Helm charts that can be easily accessed and installed on your Kubernetes cluster. To deploy the Grafana Stack and access it via an NGINX ingress controller, you will need to add the official Grafana, Prometheus, and NGINX Helm repositories to your Helm configuration.
 
 Add the Grafana and NGINX Helm repositories using the following command:
 
 ```bash
 helm repo add grafana https://grafana.github.io/helm-charts
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 ```
 

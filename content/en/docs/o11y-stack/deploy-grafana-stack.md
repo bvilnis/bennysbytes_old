@@ -21,7 +21,7 @@ kubectl create namespace prometheus
 2. Install the Prometheus Helm chart:
 
 ```bash
-helm install prometheus grafana/prometheus --namespace prometheus
+helm install prometheus prometheus-community/prometheus --namespace prometheus
 ```
 
 This command installs Prometheus in the `prometheus` namespace using the default configuration provided by the Grafana Helm repository.
