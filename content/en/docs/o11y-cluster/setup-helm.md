@@ -33,19 +33,19 @@ helm version
 ## Setting Up The Helm Repositories
 After installing Helm, you need to add the required Helm repositories for the Prometheus community chart, Grafana charts, and the Nginx ingress controller chart. Run the following commands to add the repositories:
 
-1. **Add the Prometheus community Helm repository:**
+1. Add the Prometheus community Helm repository:
 
 ```bash
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 ```
 
-2. **Add the Grafana Helm repository:**
+2. Add the Grafana Helm repository:
 
 ```bash
 helm repo add grafana https://grafana.github.io/helm-charts
 ```
 
-3. **Add the Nginx ingress controller Helm repository:**
+3. Add the Nginx ingress controller Helm repository:
 
 ```bash
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
