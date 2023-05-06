@@ -6,7 +6,7 @@ weight: 1
 draft: false
 ---
 
-Welcome to this comprehensive guide on setting up a local Kubernetes cluster using k3d and deploying the Grafana Stack (Prometheus, Loki, Tempo, and Grafana) using Helm charts on macOS and Linux systems. In this introduction, we will briefly explain the key technologies involved in this project and their relevance.
+Welcome to this comprehensive guide on setting up a local Kubernetes cluster using k3d and deploying the Grafana Stack (Prometheus, Loki, Tempo, and Grafana) using Helm charts on macOS and Linux systems. In this introduction, I will briefly explain the key technologies involved in this project and their relevance.
 
 ## Kubernetes
 [Kubernetes](https://kubernetes.io/) is an open-source container orchestration platform designed to automate the deployment, scaling, and management of containerised applications. It provides a powerful and flexible framework for managing containerised workloads and services, enabling efficient use of resources, high availability, and seamless updates.

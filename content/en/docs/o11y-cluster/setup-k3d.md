@@ -7,7 +7,7 @@ weight: 4
 draft: false
 ---
 
-In this section, we will guide you through the process of creating and managing a local Kubernetes cluster using k3d on macOS and Linux systems. The instructions provided below are applicable to both operating systems.
+In this section, I will guide you through the process of creating and managing a local Kubernetes cluster using k3d on macOS and Linux systems. The instructions provided below are applicable to both operating systems.
 
 ## macOS Installation
 To install k3d on macOS, you can use the Homebrew package manager. If you don't have Homebrew installed, follow the instructions on the [Homebrew website](https://brew.sh/) to install it. Once Homebrew is installed, run the following command in your terminal to install k3d:
