@@ -1,5 +1,6 @@
 baseURL = "/"
 title = "Benny's Bytes"
+description = "The tech blog and wiki of Ben Vilnis"
 
 # Language settings
 contentDir = "content/en"
