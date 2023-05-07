@@ -1,5 +1,6 @@
 ---
 title: "Home Observability Kubernetes Cluster"
+description: "Home o11y cluster using k3d and the Grafana stack."
 linkTitle: "Observability k8s Cluster"
 tags: ["docs", "o11y-cluster"]
 draft: false
