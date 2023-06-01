@@ -26,7 +26,7 @@ draft: false
 
   The beauty of this system is the concept of multi-threshold alerting. For example, suppose we're burning our error budget at the equivalent of 2% per hour. That's like setting the budget on fire! It's a critical issue that needs immediate dousing, triggering an urgent alert. But what if the burn rate is slow, let's say 10% over three days? It's not as pressing and can wait until regular office hours, triggering a less urgent alert. Compared to traditional metrics-based alerting, this approach offers a multi-faceted view of system health, adept at detecting both fast-burning issues and slow, smouldering problems.
 
-  The beauty of SLO-based alerting is its inherent connection to user experience. By focusing on factors that truly impact users, this approach aids in the reliability and resilience of service offerings.
+  The power of SLO-based alerting is its inherent connection to user experience. By focusing on factors that truly impact users, this approach aids in the reliability and resilience of service offerings.
 
   ## The Value of SLO-Based Alerting
 
@@ -50,11 +50,11 @@ draft: false
 
   In the realm of modern, intricate, distributed systems, failures are par for the course. In fact, there is almost always a number of errors occurring at any given moment in a modern, distributed system. The traditional approach of attempting to prevent every single hiccup by alerting on every conceivable metric has proven to be not just unsustainable but counterproductive. It's like a fire alarm that rings every time you light a candle, ultimately leading to alert noise and fatigue, and even then, it might miss the actual fire.
 
-  Embracing SLOs and error budgets means accepting some level of failure as inevitable. The focus shifts from playing an endless game of whack-a-mole with problems to maintaining a high level of service despite these inevitable failures. This change in perspective lets us build more resilient systems and respond more effectively when real fires do break out.
+  Embracing SLOs and error budgets means accepting some level of failure as inevitable. The focus shifts from playing an endless game of whack-a-mole with potential problems to maintaining a high level of service despite these inevitable failures. This change in perspective lets us build more resilient systems and respond more effectively when real fires do break out.
 
   ## Enter the Role of Observability
 
-  Observability plays a starring role in SLO-based alerting. It's the detective that investigates the crimes that SLOs alert us to. When SLOs indicate that the service isn't meeting user expectations—the "what"—observability steps in to answer the critical "why"?
+  Observability plays a starring role in SLO-based alerting. It's the detective that investigates the crimes that error budgets alert us to. When error budgets indicate that the service isn't meeting user expectations—the "what"—observability steps in to answer the critical "why"?
 
   The observability paradigm encompasses the collection, analysis, and visualisation of the system's behaviour, focusing on wide-structured events, otherwise known as traces. Although logs and metrics—the traditional "pillars" of monitoring—are still useful, they are like a tourist in a foreign city with a map: you need to know what you're looking for. They cater to _"known-unknown"_ scenarios.
 
