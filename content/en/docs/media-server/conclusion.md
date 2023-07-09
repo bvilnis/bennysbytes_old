@@ -19,4 +19,3 @@ Throughout this guide, you have learned to:
 * Regularly maintain your setup to ensure smooth and efficient operation
 
 By following the guidelines and best practices outlined in this guide, you're well-equipped to enjoy a robust, secure, and efficient media server experience on your Synology NAS. Happy streaming!
-

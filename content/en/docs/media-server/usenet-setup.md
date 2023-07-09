@@ -34,4 +34,4 @@ To use NZBGeek:
 
 Note that most NZB indexers, including NZBGeek, require a membership fee for full access to their NZB files.
 
-Now that you have your Usenet provider and indexer accounts ready, we can proceed to the next section, where we'll configure the media server applications.
+Now that you have your Usenet provider and indexer accounts ready, we can proceed to the next section, where we'll install  the media server applications.

@@ -72,4 +72,4 @@ Here’s the list of the apps and their corresponding ports once they have been 
 Replace `<NAS_IP>` with the actual IP address of your Synology NAS.
 {{% /pageinfo %}}
 
-Your Synology NAS is now set up with the necessary media server applications from SynoCommunity and the necessary directories have been created. In the next section, we will configure our Usenet provider and indexer and then move onto configuring these applications.
+Your Synology NAS is now set up with the necessary media server applications from SynoCommunity and the necessary directories have been created. In the next section, we will configure these applications.

@@ -40,4 +40,4 @@ In this section, we will walk through the process of setting up the Synology DS2
 3. Once the update is complete, open the "Package Center" from the DSM main menu.
 4. Install essential packages such as "File Station and "Universal Search" by clicking "Install" for each package.
 
-Your Synology DS220+ NAS is now set up and ready for further configuration. In the next section, we will prepare the NAS for SynoCommunity package installation and create the necessary directories for our media server applications.
+Your Synology DS220+ NAS is now set up and ready for further configuration. In the next section, we will prepare the necessary requirements for using Usenet.
