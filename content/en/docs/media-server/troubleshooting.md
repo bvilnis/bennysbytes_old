@@ -2,30 +2,44 @@
 title: "Troubleshooting and Maintenance"
 description: "Common issues, solutions, and maintenance tasks for the Synology NAS media server setup."
 tags: ["docs", "media-server"]
-weight: 9
+weight: 6
 draft: false
 ---
 
 ## Troubleshooting and Maintenance
 
-In this section, we'll provide some guidance on troubleshooting common issues and performing regular maintenance tasks for your media server.
+This section will guide you through resolving common issues that may arise during the operation of your media server, as well as regular maintenance to keep things running smoothly.
 
 ### Troubleshooting Common Issues
 
-1. **Container not starting or failing**: Check the container logs for any errors or issues by running `docker logs <container_name>`. This command will output the logs for the specified container, which can help you identify and resolve the issue.
+#### Applications Not Starting
 
-2. **Networking issues**: If you're experiencing issues with containers that use the VPN container for network traffic, ensure that the VPN container is running and connected. Also, check the VPN container logs for any connection issues.
+If you find an application isn't starting, check its logs in the "Log Center" on your Synology NAS. The error messages provided should help you identify and fix the issue.
 
-3. **Permission issues**: Make sure that the PUID and PGID environment variables are set correctly in your `docker-compose.yml` file. These variables should match the user and group IDs of the user running the Docker daemon on your Synology NAS.
+#### Connection Issues
+
+When you encounter connection problems between applications, it could be due to network configuration issues. Ensure your Synology NAS is correctly configured to allow the required connections, and that your network router is not blocking any required ports.
+
+#### Access Permission Issues
+
+Access permissions are often the cause of various issues. Be sure that all the necessary permissions are set correctly in your DSM. For example, the user group assigned to the apps should have read/write access to the directories they need.
 
 ### Regular Maintenance
 
-1. **Backup your configuration and data**: Regularly backup the configuration files and data stored in the mounted volumes to prevent data loss in case of container failure or other issues.
+#### Backup Configuration and Data
 
-2. **Monitor container resource usage**: Keep an eye on the resource usage of your containers, such as CPU, memory, and disk space. If a container is using excessive resources, consider optimizing its settings or upgrading your Synology NAS hardware if necessary.
+To avoid data loss, regularly back up your Synology NAS data, including application configurations and media files. You can utilize Synology's built-in Hyper Backup utility for this task.
 
-3. **Keep your Synology NAS up-to-date**: Regularly update your Synology NAS's DSM operating system and installed packages to ensure optimal performance and security.
+#### Monitor Resource Usage
 
-4. **Manually update containers**: If you have disabled the watchtower container or need to update a specific container to a non-latest version, you can manually pull the new image and recreate the container using the updated image. Remember to backup your configuration and data before performing manual updates.
+Keep an eye on your Synology NAS's resource usage. If it is frequently running low on CPU, RAM, or storage space, you might need to optimize your setup or consider a hardware upgrade.
 
-By following these troubleshooting and maintenance guidelines, you can ensure a smooth and efficient operation of your media server setup on your Synology NAS.
+#### Update Your Synology NAS and Packages
+
+Ensure your DSM operating system and all installed packages are up-to-date to benefit from the latest features and security patches. Regular updates will help maintain the optimal performance and security of your media server.
+
+#### Update Applications When Necessary
+
+While the applications installed from the SynoCommunity should automatically update, occasionally you may need to manually update an application to get the latest features or bug fixes. Always ensure to back up your configurations before performing updates.
+
+Adhering to these troubleshooting and maintenance tips can help to maintain a stable and efficient operation of your media server setup on your Synology NAS.

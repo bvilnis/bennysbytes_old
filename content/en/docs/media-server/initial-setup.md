@@ -22,7 +22,7 @@ In this section, we will walk through the process of setting up the Synology DS2
 ### Step 2: Install DiskStation Manager (DSM)
 
 1. Power on the Synology NAS and wait for it to boot up.
-2. On a computer connected to the same network, open a web browser and visit `find.synology.com`. The Synology Web Assistant should appear and detect your NAS.
+2. On a computer connected to the same network, open a web browser and visit [find.synology.com](find.synology.com). The Synology Web Assistant should appear and detect your NAS.
 3. Follow the on-screen instructions to install DiskStation Manager (DSM) on your Synology NAS.
 4. Once DSM is installed, you'll be prompted to create an administrator account.
 
@@ -38,6 +38,6 @@ In this section, we will walk through the process of setting up the Synology DS2
 1. In the DSM web interface, open the "Control Panel" and navigate to "Update & Restore."
 2. Update DSM to the latest version by clicking "Download" and then "Update Now."
 3. Once the update is complete, open the "Package Center" from the DSM main menu.
-4. Install essential packages such as "File Station," "Hyper Backup," and "Universal Search" by clicking "Install" for each package.
+4. Install essential packages such as "File Station and "Universal Search" by clicking "Install" for each package.
 
-Your Synology DS220+ NAS is now set up and ready for further configuration. In the next section, we will prepare the NAS for Docker and Docker Compose installation and create the necessary directories for our media server applications.
+Your Synology DS220+ NAS is now set up and ready for further configuration. In the next section, we will prepare the NAS for SynoCommunity package installation and create the necessary directories for our media server applications.
