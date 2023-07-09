@@ -26,7 +26,7 @@ Now that the applications are installed and running, you'll need to configure ea
 
 1. Access Transmission by visiting `http://<NAS_IP>:9091`.
 2. Configure your torrent settings as needed.
-3. Set up watch directory: `/watch`.
+3. Set up watch directory: `/downloads/torrents`.
 
 ### 4. SABnzbd
 
