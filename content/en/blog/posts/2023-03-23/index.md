@@ -4,7 +4,7 @@ author: "[Ben Vilnis](/about/)"
 title: "Embracing the AI Revolution with Caution"
 linkTitle: "Embracing the AI Revolution with Caution"
 description: "Exploring the Intricate Balance Between Innovation and Skepticism in a World Shaped by Artificial Intelligence"
-tags: ["blog", "princples", "AI"]
+tags: ["blog", "principles", "AI"]
 draft: false
 ---
 
